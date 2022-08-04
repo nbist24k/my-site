@@ -1,17 +1,30 @@
+a{
+   margin: 10px 20px; 
+   text-decoration: none; 
+}
+
+a:hover{
+    color: #EAF6F6;
+
+}
+
 body{
+    color: #40514E;
+    font-family: 'Merriweather', serif;
+    line-height: 2;
     margin: 0px;
     text-align: center;
-    font-family: 'Merriweather', serif;
+    
 }
 
 hr{
+    border: dotted #EAF6F6 6px;
     border-style: none;
     border-top-style: dotted;
-    border-width: 5px;
-    color: #EAF6F6;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    width: 2%;
+    /* border-width: 5px;
+    color: #EAF6F6; */
+    margin: 100px auto;
+    width: 4%;
     
 }
 
@@ -27,8 +40,9 @@ h1{
 h2{
     color: #66BFBF;
     font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
     /* font-weight: normal; */
-    
+    padding-bottom: 10px;
 }
 
 h3{
@@ -45,8 +59,10 @@ h3{
 /******************Class Selectors***********************/
 
 .bottom-cloud{
-    position: absolute;
+    bottom:300px;
     left:800px;
+    position: absolute;
+    
 }
 
 .btn {
@@ -59,7 +75,7 @@ h3{
     -webkit-border-radius: 8;
     -moz-border-radius: 8;
     border-radius: 8px;
-    font-family: Arial;
+    font-family: 'Montserrat', sans-serif;
     color: #ffffff;
     font-size: 20px;
     padding: 10px 20px 10px 20px;
@@ -76,6 +92,11 @@ h3{
     text-decoration: none;
   }
 
+.contact-msg{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
 .top-cloud{
     position: absolute;
     top:40px;
@@ -90,15 +111,23 @@ h3{
 
 .bottom-container{
     background-color: #66BFBF;
-    padding-bottom: 20px;
+    padding:50px 0 20px;
 
+}
+
+.copyright{
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
 }
 
 .middle-container{
+    margin: 100px;
 }
 
 .my-intro{
-    color: #40514E;
+ width:30%;
+ margin: auto;
 }
 
 .pro{
@@ -106,7 +135,6 @@ h3{
 }
 
 .skill-row{
-    line-height: 2;
     margin: 100px auto 100px auto;
     text-align: left;
     width: 50%;
@@ -144,8 +172,4 @@ h3{
 
 #website{
     width: 50px;
-}
-
-#programmer{
-    font-size: 2.5rem;
 }
